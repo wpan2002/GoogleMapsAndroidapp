@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?><RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                      android:layout_width="fill_parent"
+                                                      android:layout_height="fill_parent" >
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/image"
+        android:textColor="#FFF" />
+
+
+    <Button
+        android:id="@+id/dialogButtonMap"
+        android:layout_width="100px"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="100dp"
+        android:text=" Map " />
+
+    <Button
+        android:id="@+id/dialogButtonPhoto"
+        android:layout_width="100px"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="100dp"
+        android:layout_toRightOf="@+id/dialogButtonMap"
+        android:text=" Photo " />
+
+
+</RelativeLayout>
